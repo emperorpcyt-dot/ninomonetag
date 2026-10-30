@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "13296527"))
 API_HASH = os.environ.get("API_HASH", "6ff44fffc149a6dc599a5d2eaeb8873c")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001929827203"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001846158139"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1891736799"))
@@ -28,7 +28,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1891736799"))
 PORT = int(os.environ.get("PORT", "8080"))  # Koyeb sets PORT automatically
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://INDABID:INDABID@cluster0.7x0cv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Animepirates:ULTRA123@cluster0.dv9jlez.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Emilia")
 
 #force sub channel id, if you want enable force sub
@@ -71,7 +71,7 @@ if WEBAPP_URL and not WEBAPP_URL.startswith("http"):
 # Monetag SDK settings - copy them from the script Monetag gives you:
 #   <script src='//libtl.com/sdk.js' data-zone='10396377' data-sdk='show_10396377'></script>
 #                 ^ MONETAG_SDK_URL            ^ MONETAG_ZONE          ^ MONETAG_SDK
-MONETAG_ZONE = os.environ.get("MONETAG_ZONE", "10396377").strip()
+MONETAG_ZONE = os.environ.get("MONETAG_ZONE", "11027542").strip()
 MONETAG_SDK = os.environ.get("MONETAG_SDK", "").strip() or f"show_{MONETAG_ZONE}"
 MONETAG_SDK_URL = os.environ.get("MONETAG_SDK_URL", "//libtl.com/sdk.js").strip()
 
